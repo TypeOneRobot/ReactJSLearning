@@ -1,0 +1,20 @@
+When making a .js component you have to use the export method to call for the componenet ot js module to do this we can use two ways
+    1. using default exports default function addTwo(a, b) {
+        console.log(a + b)
+}
+
+    2. You can close any function after the ( {} ) function
+        function ex {
+        yada dada baba
+}
+    export default ex
+
+When we want to import our functions to our index.html we need to
+    example: at top of the page and this works with pages and other components
+        TOP PAGE | import { ex } from "./ex"
+
+SPA: One Page Websites
+
+Components are parts of what makes the complete UI puzzle, for an example one Component can work for the nav bar, while another component creates
+the header bellow on your home page.
+
